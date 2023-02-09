@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-  //
+  // https://leetcode.com/problems/zigzag-conversion/solutions/1388459/c-easy-solution-just-find-the-pattern/
   
   return 0;
 }
