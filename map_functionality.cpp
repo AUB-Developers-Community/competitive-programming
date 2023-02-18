@@ -75,6 +75,16 @@ int main()
     
     cout << "student_info.upper_bound(202010006) : \tKEY = " << student_info.upper_bound(202010006)->first << "\t" << "\tELEMENT = " << student_info.upper_bound(202010006)->second << endl;
     
+    /////////////////////////////////
+    cout << "\ncheck if a key is in the map\t";
+    if (student_info.count(202040005) > 0)
+    {
+        cout << "\nKey \"202010005\" is in the map" << endl;
+    } 
+    else
+    {
+        cout << "\nKey \"202010005\" isn't in the map" << endl;
+    }
 
     return 0;
 }
@@ -125,4 +135,7 @@ student_info_2.erase(202010007) : 1 removed
 
 student_info.lower_bound(202010006) :   KEY = 202010006         ELEMENT = Tom
 student_info.upper_bound(202010006) :   KEY = 202010007         ELEMENT = Nayem
+
+check if a key is in the map
+Key "202010005" is in the map
 */
